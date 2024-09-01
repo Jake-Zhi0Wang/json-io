@@ -7,6 +7,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.jupiter.api.Test;
 
+import com.google.gson.JsonParser;
+import com.google.gson.JsonElement;
+
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
@@ -57,7 +60,13 @@ class AtomicIntegerTest
         assert atom2.values[3].get() == 45;
 
         json = TestUtil.toJson(atom2);
-        assert json.equals("{\"@type\":\"com.cedarsoftware.io.AtomicIntegerTest$TestAtomicIntegerField\",\"value\":16,\"nullValue\":null,\"strValue\":50,\"emptyStrValue\":0,\"objValue\":-9,\"values\":[-5,null,5,45]}");
+
+        String expectedJson = "{\"@type\":\"com.cedarsoftware.io.AtomicIntegerTest$TestAtomicIntegerField\",\"value\":16,\"nullValue\":null,\"strValue\":50,\"emptyStrValue\":0,\"objValue\":-9,\"values\":[-5,null,5,45]}";
+
+        JsonElement expectedElement = JsonParser.parseString(expectedJson);
+        JsonElement actualElement = JsonParser.parseString(json);
+
+        assert expectedElement.equals(actualElement);
         
         json = "{\"@type\":\"com.cedarsoftware.io.AtomicIntegerTest$TestAtomicIntegerField\",\"value\":16.5}";
         TestAtomicIntegerField aif = TestUtil.toObjects(json, null);
