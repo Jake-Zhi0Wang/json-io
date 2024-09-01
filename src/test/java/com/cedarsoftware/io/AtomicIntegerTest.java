@@ -63,10 +63,7 @@ class AtomicIntegerTest
 
         String expectedJson = "{\"@type\":\"com.cedarsoftware.io.AtomicIntegerTest$TestAtomicIntegerField\",\"value\":16,\"nullValue\":null,\"strValue\":50,\"emptyStrValue\":0,\"objValue\":-9,\"values\":[-5,null,5,45]}";
 
-        JsonElement expectedElement = JsonParser.parseString(expectedJson);
-        JsonElement actualElement = JsonParser.parseString(json);
-
-        assert expectedElement.equals(actualElement);
+        assert JsonParser.parseString(json).equals(JsonParser.parseString(expectedJson));
         
         json = "{\"@type\":\"com.cedarsoftware.io.AtomicIntegerTest$TestAtomicIntegerField\",\"value\":16.5}";
         TestAtomicIntegerField aif = TestUtil.toObjects(json, null);
