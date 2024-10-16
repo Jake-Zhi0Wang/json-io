@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.UUIDTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.cedarsoftware.io.UUIDTest
+com.cedarsoftware.io.UUIDTest.testUUIDInCollection -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.UUIDTest.testUUIDInCollection(UUIDTest.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UUIDTest.testUUIDInArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.UUIDTest.testUUIDInArray(UUIDTest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UUIDTest.testUUIDasPrimitiveForm -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.UUIDTest.testUUIDasPrimitiveForm(UUIDTest.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UUIDTest.testUUID -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.UUIDTest.testUUID(UUIDTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UUIDTest.testAssignUUID -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.UUIDTest.testAssignUUID(UUIDTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

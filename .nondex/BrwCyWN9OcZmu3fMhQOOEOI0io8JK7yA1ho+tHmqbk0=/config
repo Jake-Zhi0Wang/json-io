@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1471950
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=BrwCyWN9OcZmu3fMhQOOEOI0io8JK7yA1ho+tHmqbk0=
+nondexLogging=CONFIG
+test=

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.reflect.filters.StaticFieldFilterTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! -- in com.cedarsoftware.io.reflect.filters.StaticFieldFilterTests
+com.cedarsoftware.io.reflect.filters.StaticFieldFilterTests.staticFilter_filtersAll_onEnumWithAllStatics -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/models/ColorEnum
+	at com.cedarsoftware.io.reflect.filters.StaticFieldFilterTests.staticFilter_filtersAll_onEnumWithAllStatics(StaticFieldFilterTests.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.models.ColorEnum
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.reflect.filters.StaticFieldFilterTests.enumFilter_withEnumThatHasAdditionalFields -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/models/CarEnumWithCustomFields
+	at com.cedarsoftware.io.reflect.filters.StaticFieldFilterTests.enumFilter_withEnumThatHasAdditionalFields(StaticFieldFilterTests.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.models.CarEnumWithCustomFields
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+

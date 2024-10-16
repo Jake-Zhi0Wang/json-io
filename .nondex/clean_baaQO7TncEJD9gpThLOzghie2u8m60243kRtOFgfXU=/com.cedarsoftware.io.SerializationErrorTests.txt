@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.SerializationErrorTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in com.cedarsoftware.io.SerializationErrorTests
+com.cedarsoftware.io.SerializationErrorTests.testEnumWithValue_makeSureEnumCanBeParsed -- Time elapsed: 0.001 s <<< ERROR!
+com.cedarsoftware.io.JsonIoException: Error reading resource: errors/enum-with-value.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:740)
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsString(MetaUtils.java:724)
+	at com.cedarsoftware.io.SerializationErrorTests.loadJsonForTest(SerializationErrorTests.java:144)
+	at com.cedarsoftware.io.SerializationErrorTests.testEnumWithValue_makeSureEnumCanBeParsed(SerializationErrorTests.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: com.cedarsoftware.io.JsonIoException: Resource not found: errors/enum-with-value.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:736)
+	... 6 more
+
+com.cedarsoftware.io.SerializationErrorTests.testMismatchedMethodTypes_withMinimalTying -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/models/MismatchedGetter
+	at com.cedarsoftware.io.SerializationErrorTests.testMismatchedMethodTypes_withMinimalTying(SerializationErrorTests.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.models.MismatchedGetter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.SerializationErrorTests.testSerialization_whereDisplay_hasGetterOfDifferentType -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/models/ObjectSerializationIssue
+	at com.cedarsoftware.io.SerializationErrorTests.testSerialization_whereDisplay_hasGetterOfDifferentType(SerializationErrorTests.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.models.ObjectSerializationIssue
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.SerializationErrorTests.testClone_whenWantingToAddtoDatabase_ClearsTheId -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.SerializationErrorTests.testClone_whenWantingToAddtoDatabase_ClearsTheId(SerializationErrorTests.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.SerializationErrorTests.testMismatchedMethodTypes_withFullTyping -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/models/MismatchedGetter
+	at com.cedarsoftware.io.SerializationErrorTests.testMismatchedMethodTypes_withFullTyping(SerializationErrorTests.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.SerializationErrorTests.testSerializeLongId_doesNotFillInWithZeroWhenMissing -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.SerializationErrorTests.testSerializeLongId_doesNotFillInWithZeroWhenMissing(SerializationErrorTests.java:97)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! -- in com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests
+com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests.enumFilter_enumValue -- Time elapsed: 0.010 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting value to be false but was true
+	at com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests.enumFilter_enumValue(EnumFieldFilterTests.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests.enumFilter_withABasicEnum_willNotFilterAnyFields -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting value to be false but was true
+	at com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests.enumFilter_withABasicEnum_willNotFilterAnyFields(EnumFieldFilterTests.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests.enumFilter_withEnumThatHasAdditionalFields -- Time elapsed: 0.007 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting value to be false but was true
+	at com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests.enumFilter_withEnumThatHasAdditionalFields(EnumFieldFilterTests.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

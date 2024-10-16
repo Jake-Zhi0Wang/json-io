@@ -1,0 +1,232 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.MonthDayTests
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 18, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! -- in com.cedarsoftware.io.MonthDayTests
+com.cedarsoftware.io.MonthDayTests.testClassSpecificArray_withNoDuplicates -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testClassSpecificArray_withNoDuplicates(SerializationDeserializationMinimumTests.java:293)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testNestedInObject_withNoDuplicates_andFieldTypeDoesNotMatchObjectType -- Time elapsed: 0.011 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withNoDuplicates_andFieldTypeDoesNotMatchObjectType(SerializationDeserializationMinimumTests.java:152)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testStandaloneT -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testStandaloneT(SerializationDeserializationMinimumTests.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.MonthDayTests.testObjectArray_withDuplicates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testObjectArray_withDuplicates(SerializationDeserializationMinimumTests.java:266)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testNestedInObject_withDuplicates_andFieldTypeMatchesObjectType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withDuplicates_andFieldTypeMatchesObjectType(SerializationDeserializationMinimumTests.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testNestedInObject_withNoDuplicates_andFieldTypeMatchesObjectType -- Time elapsed: 0.019 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withNoDuplicates_andFieldTypeMatchesObjectType(SerializationDeserializationMinimumTests.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testCollection_withDuplicates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testCollection_withDuplicates(SerializationDeserializationMinimumTests.java:373)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testMap_withDuplicates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testMap_withDuplicates(SerializationDeserializationMinimumTests.java:424)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testCollection_withNoDuplicates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testCollection_withNoDuplicates(SerializationDeserializationMinimumTests.java:352)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.MonthDayTests.testObjectArray_withNoDuplicates_butIncludingRandomObjects -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testObjectArray_withNoDuplicates_butIncludingRandomObjects(SerializationDeserializationMinimumTests.java:207)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.MonthDayTests.testNestedInObject_withNoDuplicates_andFieldTypeIsGeneric -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withNoDuplicates_andFieldTypeIsGeneric(SerializationDeserializationMinimumTests.java:231)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testMap_withNoDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testMap_withNoDuplicates(SerializationDeserializationMinimumTests.java:400)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testClassSpecificArray_withDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testClassSpecificArray_withDuplicates(SerializationDeserializationMinimumTests.java:321)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testT1_serializedWithoutType_parsedAsJsonTypes -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.serializeDeserializeAsMaps(TestUtil.java:39)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testT1_serializedWithoutType_parsedAsJsonTypes(SerializationDeserializationMinimumTests.java:450)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testTopLevel_serializesAsISODate -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.MonthDayTests.testTopLevel_serializesAsISODate(MonthDayTests.java:87)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.MonthDayTests.testOldFormat_nestedObject -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.MonthDayTests.testOldFormat_nestedObject(MonthDayTests.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.MonthDayTests.testOldFormat_objectType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.MonthDayTests.testOldFormat_objectType(MonthDayTests.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.MonthDayTests.testMonthDay_inArray -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.MonthDayTests.testMonthDay_inArray(MonthDayTests.java:99)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+

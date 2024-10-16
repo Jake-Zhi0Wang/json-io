@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.cedarsoftware.io.JDK9ImmutableTest" time="0.171" tests="23" errors="23" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="user.region" value="US"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/jakew4/json-io/target/test-classes:/home/jakew4/json-io/target/classes:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/jakew4/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/jakew4/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/jakew4/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/jakew4/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/home/jakew4/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/home/jakew4/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/home/jakew4/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/home/jakew4/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-classic/1.5.6/logback-classic-1.5.6.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-core/1.5.6/logback-core-1.5.6.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/home/jakew4/json-io/target/surefire/surefirebooter-20240903141422331_3.jar /home/jakew4/json-io/target/surefire 2024-09-03T14-14-22_106-jvmRun1 surefire-20240903141422331_1tmp surefire_0-20240903141422331_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/jakew4/json-io/target/test-classes:/home/jakew4/json-io/target/classes:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/jakew4/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/jakew4/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/jakew4/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/jakew4/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/home/jakew4/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/home/jakew4/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/home/jakew4/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/home/jakew4/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-classic/1.5.6/logback-classic-1.5.6.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-core/1.5.6/logback-core-1.5.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="clean_baaQO7TncEJD9gpThLOzghie2u8m60243kRtOFgfXU="/>
+    <property name="user.home" value="/home/jakew4"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/jakew4/json-io"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/home/jakew4/json-io/target/surefire/surefirebooter-20240903141422331_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
+    <property name="user.name" value="jakew4"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-119-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/jakew4/.m2/repository"/>
+    <property name="nondexDir" value="/home/jakew4/json-io/.nondex"/>
+    <property name="nondexJarDir" value=".nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.24"/>
+    <property name="user.dir" value="/home/jakew4/json-io"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testListOfThree" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.0">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfThree(JDK9ImmutableTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfThreeRecsBoth" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.0">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfThreeRecsBoth(JDK9ImmutableTest.java:239)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testSetOf" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.001">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testSetOf(JDK9ImmutableTest.java:143)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfOne" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.014">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfOne(JDK9ImmutableTest.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfTwo" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.0">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfTwo(JDK9ImmutableTest.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfMany" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.002">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfMany(JDK9ImmutableTest.java:323)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testMapValueForwardReferenceOutsideMap" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.022">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testMapValueForwardReferenceOutsideMap(JDK9ImmutableTest.java:655)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testMapValueReferenceKey" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.002">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testMapValueReferenceKey(JDK9ImmutableTest.java:552)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfThreeRecsImmutableOnly" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.0">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfThreeRecsImmutableOnly(JDK9ImmutableTest.java:263)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testForwardReferenceImmutableSet" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.0">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testForwardReferenceImmutableSet(JDK9ImmutableTest.java:433)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testSetOfThree" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.001">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testSetOfThree(JDK9ImmutableTest.java:179)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testMapKeyForwardReferenceOutsideMap" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.033">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testMapKeyForwardReferenceOutsideMap(JDK9ImmutableTest.java:599)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testMapKeyForwardReference" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.008">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testMapKeyForwardReference(JDK9ImmutableTest.java:507)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testCopyOfSetOf" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.003">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testCopyOfSetOf(JDK9ImmutableTest.java:130)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testForwardReferenceImmutableList" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.0">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testForwardReferenceImmutableList(JDK9ImmutableTest.java:376)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfThreeRecsMutableBoth" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.003">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfThreeRecsMutableBoth(JDK9ImmutableTest.java:197)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testListOf" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.001">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOf(JDK9ImmutableTest.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testImmutableSet" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.001">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JDK9ImmutableTest.testImmutableSet(JDK9ImmutableTest.java:353)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testMapValueForwardReferenceInsideMap" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.021">
+    <error type="java.lang.ExceptionInInitializerError"><![CDATA[java.lang.ExceptionInInitializerError
+	at com.cedarsoftware.io.JDK9ImmutableTest.testMapValueForwardReferenceInsideMap(JDK9ImmutableTest.java:724)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: com.cedarsoftware.io.JsonIoException: Error reading in config/classFactory.txt. The file should be in the resources folder. The contents are expected to have two strings separated by '='. You can use # or blank lines in the file, they will be skipped.
+	at com.cedarsoftware.io.MetaUtils.loadMapDefinition(MetaUtils.java:689)
+	at com.cedarsoftware.io.ReadOptionsBuilder.loadBaseClassFactory(ReadOptionsBuilder.java:713)
+	at com.cedarsoftware.io.ReadOptionsBuilder.<clinit>(ReadOptionsBuilder.java:79)
+	... 4 more
+]]></error>
+  </testcase>
+  <testcase name="testCopyOfListOf" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.015">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testCopyOfListOf(JDK9ImmutableTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testListOfThreeRecsMutableInside" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.001">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testListOfThreeRecsMutableInside(JDK9ImmutableTest.java:218)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testSetOfOne" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.03">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testSetOfOne(JDK9ImmutableTest.java:155)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+  <testcase name="testSetOfTwo" classname="com.cedarsoftware.io.JDK9ImmutableTest" time="0.001">
+    <error message="com/cedarsoftware/io/reflect/filters/FieldFilter" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.JDK9ImmutableTest.testSetOfTwo(JDK9ImmutableTest.java:167)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+]]></error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.SingletonTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! -- in com.cedarsoftware.io.SingletonTest
+com.cedarsoftware.io.SingletonTest.testSingletonListSerialization -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.SingletonTest.testSingletonListSerialization(SingletonTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.SingletonTest.testSingletonSetSerialization -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.SingletonTest.testSingletonSetSerialization(SingletonTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.SingletonTest.testSingletonMapSerialization -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.SingletonTest.testSingletonMapSerialization(SingletonTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

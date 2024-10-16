@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.zzLastTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! -- in com.cedarsoftware.io.zzLastTest
+com.cedarsoftware.io.zzLastTest.testRemovingReadAliases -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.zzLastTest.testRemovingReadAliases(zzLastTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.zzLastTest.testRemovingReadAliasesPermanent -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.zzLastTest.testRemovingReadAliasesPermanent(zzLastTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.zzLastTest.testRemovingWriteAliases -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.zzLastTest.testRemovingWriteAliases(zzLastTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.zzLastTest.testRemovingWriteAliasesPermanent -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.zzLastTest.testRemovingWriteAliasesPermanent(zzLastTest.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

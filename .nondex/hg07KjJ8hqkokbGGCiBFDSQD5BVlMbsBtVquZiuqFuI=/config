@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=-2147483648
+nondexEnd=2147483647
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=hg07KjJ8hqkokbGGCiBFDSQD5BVlMbsBtVquZiuqFuI=
+nondexLogging=CONFIG
+test=com.cedarsoftware.io.AtomicIntegerTest#testAssignAtomicInteger

@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.SecurityTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in com.cedarsoftware.io.SecurityTest
+com.cedarsoftware.io.SecurityTest.testInstantiateClassInstances -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SecurityTest.testInstantiateClassInstances(SecurityTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.SecurityTest.testSecureReads -- Time elapsed: 0 s <<< ERROR!
+com.cedarsoftware.io.JsonIoException: Error reading resource: security/processBuilder.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:740)
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsString(MetaUtils.java:724)
+	at com.cedarsoftware.io.SecurityTest.testSecureReads(SecurityTest.java:127)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: com.cedarsoftware.io.JsonIoException: Resource not found: security/processBuilder.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:736)
+	... 5 more
+
+com.cedarsoftware.io.SecurityTest.testSecureWrites -- Time elapsed: 0.010 s <<< ERROR!
+java.io.IOException: Cannot run program "ipconfig": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.cedarsoftware.io.SecurityTest.testSecureWrites(SecurityTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 5 more
+

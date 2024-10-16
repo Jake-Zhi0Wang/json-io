@@ -1,0 +1,172 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.InnerCollectionsTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.073 s <<< FAILURE! -- in com.cedarsoftware.io.InnerCollectionsTest
+com.cedarsoftware.io.InnerCollectionsTest.testSkipListMap_KeySet -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.keySetTest(InnerCollectionsTest.java:111)
+	at com.cedarsoftware.io.InnerCollectionsTest.testSkipListMap_KeySet(InnerCollectionsTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testSkipListMap_Values -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.valuesTest(InnerCollectionsTest.java:125)
+	at com.cedarsoftware.io.InnerCollectionsTest.testSkipListMap_Values(InnerCollectionsTest.java:97)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testIdentityMap_KeySet -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.keySetTest(InnerCollectionsTest.java:111)
+	at com.cedarsoftware.io.InnerCollectionsTest.testIdentityMap_KeySet(InnerCollectionsTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testLinkedHashMap_LinkedKeySet -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.keySetTest(InnerCollectionsTest.java:111)
+	at com.cedarsoftware.io.InnerCollectionsTest.testLinkedHashMap_LinkedKeySet(InnerCollectionsTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testIdentityMap_Values -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.valuesTest(InnerCollectionsTest.java:125)
+	at com.cedarsoftware.io.InnerCollectionsTest.testIdentityMap_Values(InnerCollectionsTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testLinkedHashMap_LinkedValues -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.valuesTest(InnerCollectionsTest.java:125)
+	at com.cedarsoftware.io.InnerCollectionsTest.testLinkedHashMap_LinkedValues(InnerCollectionsTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testConcurrentMap_KeySet -- Time elapsed: 0.015 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.keySetTest(InnerCollectionsTest.java:111)
+	at com.cedarsoftware.io.InnerCollectionsTest.testConcurrentMap_KeySet(InnerCollectionsTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testConcurrentMap_Values -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.valuesTest(InnerCollectionsTest.java:125)
+	at com.cedarsoftware.io.InnerCollectionsTest.testConcurrentMap_Values(InnerCollectionsTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testHashMap_KeySet -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.keySetTest(InnerCollectionsTest.java:111)
+	at com.cedarsoftware.io.InnerCollectionsTest.testHashMap_KeySet(InnerCollectionsTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testHashMap_Values -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.valuesTest(InnerCollectionsTest.java:125)
+	at com.cedarsoftware.io.InnerCollectionsTest.testHashMap_Values(InnerCollectionsTest.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testTreeMap_KeySet -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.keySetTest(InnerCollectionsTest.java:111)
+	at com.cedarsoftware.io.InnerCollectionsTest.testTreeMap_KeySet(InnerCollectionsTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.InnerCollectionsTest.testTreeMap_Values -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.InnerCollectionsTest.valuesTest(InnerCollectionsTest.java:125)
+	at com.cedarsoftware.io.InnerCollectionsTest.testTreeMap_Values(InnerCollectionsTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+

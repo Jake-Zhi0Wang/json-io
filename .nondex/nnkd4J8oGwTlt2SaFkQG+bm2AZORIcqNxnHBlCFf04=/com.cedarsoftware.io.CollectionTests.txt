@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.CollectionTests
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.188 s <<< FAILURE! -- in com.cedarsoftware.io.CollectionTests
+com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded -- Time elapsed: 0.007 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"@type":"ArrayList","@items":[{"@type":"com.cedarsoftware.io.CollectionTests$TestEnum4","age":21,"foo":"bar","name":"B"}]}> but was: <{"@type":"ArrayList","@items":[{"@type":"com.cedarsoftware.io.CollectionTests$TestEnum4","foo":"bar","age":21,"name":"B"}]}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded(CollectionTests.java:395)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

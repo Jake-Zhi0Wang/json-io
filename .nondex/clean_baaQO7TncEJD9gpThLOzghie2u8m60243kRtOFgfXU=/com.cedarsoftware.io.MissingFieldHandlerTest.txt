@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.MissingFieldHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in com.cedarsoftware.io.MissingFieldHandlerTest
+com.cedarsoftware.io.MissingFieldHandlerTest.testMissingHandlerWithRef -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.MissingFieldHandlerTest.testMissingHandlerWithRef(MissingFieldHandlerTest.java:148)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.MissingFieldHandlerTest.testMissingHandler -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.MissingFieldHandlerTest.testMissingHandler(MissingFieldHandlerTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

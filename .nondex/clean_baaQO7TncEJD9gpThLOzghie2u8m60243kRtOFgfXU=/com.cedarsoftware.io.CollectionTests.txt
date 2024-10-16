@@ -1,0 +1,321 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.CollectionTests
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 25, Skipped: 0, Time elapsed: 0.204 s <<< FAILURE! -- in com.cedarsoftware.io.CollectionTests
+com.cedarsoftware.io.CollectionTests.testUntypedCollections -- Time elapsed: 0.011 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testUntypedCollections(CollectionTests.java:539)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testCollectionOfLogicalPrimitiveArrays -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.CollectionTests.testCollectionOfLogicalPrimitiveArrays(CollectionTests.java:589)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.CollectionTests.testCollectionWithParameterizedTypes -- Time elapsed: 0.030 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.CollectionTests.testCollectionWithParameterizedTypes(CollectionTests.java:331)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.CollectionTests.testCollectionWithNonJsonPrimitives -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testCollectionWithNonJsonPrimitives(CollectionTests.java:323)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testReadListOfInJDK1_8 -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.toObjects(JsonIo.java:180)
+	at com.cedarsoftware.io.JsonIo.toObjects(JsonIo.java:158)
+	at com.cedarsoftware.io.CollectionTests.testReadListOfInJDK1_8(CollectionTests.java:622)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.ReadOptionsBuilder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 6 more
+
+com.cedarsoftware.io.CollectionTests.testCollectionWithEmptyElement -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testCollectionWithEmptyElement(CollectionTests.java:285)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testEmptyArrayList -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testEmptyArrayList(CollectionTests.java:558)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testEmptyList -- Time elapsed: 0.019 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JsonWriter.<init>(JsonWriter.java:151)
+	at com.cedarsoftware.io.JsonIo.toJson(JsonIo.java:92)
+	at com.cedarsoftware.io.TestUtil.writeJsonIo(TestUtil.java:58)
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:104)
+	at com.cedarsoftware.io.CollectionTests.testEmptyList(CollectionTests.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 8 more
+
+com.cedarsoftware.io.CollectionTests.testAlwaysShowType -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.CollectionTests.testAlwaysShowType(CollectionTests.java:271)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded(CollectionTests.java:388)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.CollectionTests.testMapOfMapsCollection -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testMapOfMapsCollection(CollectionTests.java:440)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testReconstituteCollection -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testReconstituteCollection(CollectionTests.java:480)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testReconstituteCollection2 -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testReconstituteCollection2(CollectionTests.java:255)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPublicFieldsOnly -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPublicFieldsOnly(CollectionTests.java:401)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.CollectionTests.testEmptySortedSet -- Time elapsed: 0.018 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JsonWriter.<init>(JsonWriter.java:151)
+	at com.cedarsoftware.io.JsonIo.toJson(JsonIo.java:92)
+	at com.cedarsoftware.io.TestUtil.writeJsonIo(TestUtil.java:58)
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:104)
+	at com.cedarsoftware.io.CollectionTests.testEmptySortedSet(CollectionTests.java:99)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 8 more
+
+com.cedarsoftware.io.CollectionTests.testReconstituteEmptyCollection -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testReconstituteEmptyCollection(CollectionTests.java:511)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testCollectionArrayOfObjects -- Time elapsed: 0.014 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.CollectionTests.testCollectionArrayOfObjects(CollectionTests.java:603)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.CollectionTests.testGenericInfoCollection -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.CollectionTests.testGenericInfoCollection(CollectionTests.java:414)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.CollectionTests.testCollectionOfPrimitiveArrays -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.CollectionTests.testCollectionOfPrimitiveArrays(CollectionTests.java:575)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 4 more
+
+com.cedarsoftware.io.CollectionTests.testEmptyCollections -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.CollectionTests.testEmptyCollections(CollectionTests.java:369)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.CollectionTests.testLocaleInCollection -- Time elapsed: 0.014 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testLocaleInCollection(CollectionTests.java:425)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testEmptyNavigableSet -- Time elapsed: 0.010 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JsonWriter.<init>(JsonWriter.java:151)
+	at com.cedarsoftware.io.JsonIo.toJson(JsonIo.java:92)
+	at com.cedarsoftware.io.TestUtil.writeJsonIo(TestUtil.java:58)
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:104)
+	at com.cedarsoftware.io.CollectionTests.testEmptyNavigableSet(CollectionTests.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 8 more
+
+com.cedarsoftware.io.CollectionTests.testCollection -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testCollection(CollectionTests.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+com.cedarsoftware.io.CollectionTests.testEmptySet -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.JsonWriter.<init>(JsonWriter.java:151)
+	at com.cedarsoftware.io.JsonIo.toJson(JsonIo.java:92)
+	at com.cedarsoftware.io.TestUtil.writeJsonIo(TestUtil.java:58)
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:104)
+	at com.cedarsoftware.io.CollectionTests.testEmptySet(CollectionTests.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 8 more
+
+com.cedarsoftware.io.CollectionTests.testCollectionWithReferences -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/reflect/filters/FieldFilter
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.CollectionTests.testCollectionWithReferences(CollectionTests.java:305)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.ClassNotFoundException: com.cedarsoftware.io.reflect.filters.FieldFilter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+

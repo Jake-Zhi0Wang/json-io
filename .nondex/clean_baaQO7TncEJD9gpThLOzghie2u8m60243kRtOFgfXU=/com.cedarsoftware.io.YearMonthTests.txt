@@ -1,0 +1,152 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.YearMonthTests
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 18, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in com.cedarsoftware.io.YearMonthTests
+com.cedarsoftware.io.YearMonthTests.testClassSpecificArray_withNoDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testClassSpecificArray_withNoDuplicates(SerializationDeserializationMinimumTests.java:293)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testNestedInObject_withNoDuplicates_andFieldTypeDoesNotMatchObjectType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withNoDuplicates_andFieldTypeDoesNotMatchObjectType(SerializationDeserializationMinimumTests.java:152)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testStandaloneT -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testStandaloneT(SerializationDeserializationMinimumTests.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testObjectArray_withDuplicates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testObjectArray_withDuplicates(SerializationDeserializationMinimumTests.java:266)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testNestedInObject_withDuplicates_andFieldTypeMatchesObjectType -- Time elapsed: 0.012 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withDuplicates_andFieldTypeMatchesObjectType(SerializationDeserializationMinimumTests.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testNestedInObject_withNoDuplicates_andFieldTypeMatchesObjectType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withNoDuplicates_andFieldTypeMatchesObjectType(SerializationDeserializationMinimumTests.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testCollection_withDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testCollection_withDuplicates(SerializationDeserializationMinimumTests.java:373)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testMap_withDuplicates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testMap_withDuplicates(SerializationDeserializationMinimumTests.java:424)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testCollection_withNoDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testCollection_withNoDuplicates(SerializationDeserializationMinimumTests.java:352)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testObjectArray_withNoDuplicates_butIncludingRandomObjects -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testObjectArray_withNoDuplicates_butIncludingRandomObjects(SerializationDeserializationMinimumTests.java:207)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testNestedInObject_withNoDuplicates_andFieldTypeIsGeneric -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testNestedInObject_withNoDuplicates_andFieldTypeIsGeneric(SerializationDeserializationMinimumTests.java:231)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testMap_withNoDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testMap_withNoDuplicates(SerializationDeserializationMinimumTests.java:400)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testClassSpecificArray_withDuplicates -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testClassSpecificArray_withDuplicates(SerializationDeserializationMinimumTests.java:321)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testT1_serializedWithoutType_parsedAsJsonTypes -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.serializeDeserializeAsMaps(TestUtil.java:39)
+	at com.cedarsoftware.io.SerializationDeserializationMinimumTests.testT1_serializedWithoutType_parsedAsJsonTypes(SerializationDeserializationMinimumTests.java:450)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testTopLevel_serializesAsISODate -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.YearMonthTests.testTopLevel_serializesAsISODate(YearMonthTests.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testOldFormat_nestedObject -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.YearMonthTests.testOldFormat_nestedObject(YearMonthTests.java:97)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testOldFormat_objectType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.YearMonthTests.testOldFormat_objectType(YearMonthTests.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.YearMonthTests.testYearMonth_inArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.TestUtil.serializeDeserialize(TestUtil.java:34)
+	at com.cedarsoftware.io.YearMonthTests.testYearMonth_inArray(YearMonthTests.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

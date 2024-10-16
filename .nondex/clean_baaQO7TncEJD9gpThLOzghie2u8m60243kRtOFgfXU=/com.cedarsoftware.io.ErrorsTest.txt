@@ -1,0 +1,244 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.ErrorsTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 13, Errors: 4, Skipped: 0, Time elapsed: 0.107 s <<< FAILURE! -- in com.cedarsoftware.io.ErrorsTest
+com.cedarsoftware.io.ErrorsTest.testParseEOFReadingToken -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseEOFReadingToken$10(ErrorsTest.java:156)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseEOFReadingToken(ErrorsTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseBadHex -- Time elapsed: 0.006 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseBadHex$6(ErrorsTest.java:120)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseBadHex(ErrorsTest.java:121)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseMissingLastBrace -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseMissingLastBrace$2(ErrorsTest.java:81)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseMissingLastBrace(ErrorsTest.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseEOFinArray -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseEOFinArray$11(ErrorsTest.java:165)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseEOFinArray(ErrorsTest.java:166)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testMalformedJson -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.ErrorsTest.lambda$testMalformedJson$13(ErrorsTest.java:192)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:904)
+	...(74 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testMalformedJson(ErrorsTest.java:193)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testBadJson -- Time elapsed: 0.018 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testBadJson$0(ErrorsTest.java:35)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testBadJson(ErrorsTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testBadType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.ErrorsTest.testBadType(ErrorsTest.java:250)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseObjectWithoutClosingBrace -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseObjectWithoutClosingBrace$5(ErrorsTest.java:111)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseObjectWithoutClosingBrace(ErrorsTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseUnfinishedString -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseUnfinishedString$8(ErrorsTest.java:138)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseUnfinishedString(ErrorsTest.java:139)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseInvalid1stChar -- Time elapsed: 0.007 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseInvalid1stChar$1(ErrorsTest.java:58)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseInvalid1stChar(ErrorsTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testNullFieldName -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testNullFieldName$12(ErrorsTest.java:183)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testNullFieldName(ErrorsTest.java:184)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseBadEscapeChar -- Time elapsed: 0.017 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseBadEscapeChar$7(ErrorsTest.java:129)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseBadEscapeChar(ErrorsTest.java:130)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseEOFInToken -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseEOFInToken$9(ErrorsTest.java:147)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseEOFInToken(ErrorsTest.java:148)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseMissingLastBracket -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.testParseMissingLastBracket(ErrorsTest.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testParseBadValueInArray -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.cedarsoftware.io.JsonIoException
+but was:
+  java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.lambda$testParseBadValueInArray$4(ErrorsTest.java:102)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(75 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.cedarsoftware.io.ErrorsTest.testParseBadValueInArray(ErrorsTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testEmptyFieldName -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.testEmptyFieldName(ErrorsTest.java:174)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ErrorsTest.testBadJsonFormats -- Time elapsed: 0.019 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ErrorsTest.errorContains(ErrorsTest.java:269)
+	at com.cedarsoftware.io.ErrorsTest.testBadJsonFormats(ErrorsTest.java:286)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

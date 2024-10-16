@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.AtomicIntegerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! -- in com.cedarsoftware.io.AtomicIntegerTest
+com.cedarsoftware.io.AtomicIntegerTest.testAssignAtomicInteger -- Time elapsed: 0.004 s <<< FAILURE!
+java.lang.AssertionError
+	at com.cedarsoftware.io.AtomicIntegerTest.testAssignAtomicInteger(AtomicIntegerTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

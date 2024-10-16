@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.RefsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in com.cedarsoftware.io.RefsTest
+com.cedarsoftware.io.RefsTest.testRefChainAsJavaObjects -- Time elapsed: 0.004 s <<< ERROR!
+com.cedarsoftware.io.JsonIoException: Error reading resource: references/chainRef.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:740)
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsString(MetaUtils.java:724)
+	at com.cedarsoftware.io.RefsTest.testRefChainAsJavaObjects(RefsTest.java:256)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: com.cedarsoftware.io.JsonIoException: Resource not found: references/chainRef.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:736)
+	... 5 more
+
+com.cedarsoftware.io.RefsTest.testConvertableReferences -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.RefsTest.testConvertableReferences(RefsTest.java:274)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.RefsTest.testTypedAndUntypedReference -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.RefsTest.testTypedAndUntypedReference(RefsTest.java:212)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.RefsTest.testRefResolution -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.RefsTest.testRefResolution(RefsTest.java:175)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.RefsTest.testReferences -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toJson(TestUtil.java:94)
+	at com.cedarsoftware.io.RefsTest.testReferences(RefsTest.java:124)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.RefsTest.testRefChainAsJsonObjects -- Time elapsed: 0.001 s <<< ERROR!
+com.cedarsoftware.io.JsonIoException: Error reading resource: references/chainRef.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:740)
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsString(MetaUtils.java:724)
+	at com.cedarsoftware.io.RefsTest.testRefChainAsJsonObjects(RefsTest.java:234)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: com.cedarsoftware.io.JsonIoException: Resource not found: references/chainRef.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:736)
+	... 5 more
+

@@ -1,0 +1,420 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.TestGraphComparatorList
+-------------------------------------------------------------------------------
+Tests run: 62, Failures: 0, Errors: 42, Skipped: 0, Time elapsed: 0.189 s <<< FAILURE! -- in com.cedarsoftware.io.TestGraphComparatorList
+com.cedarsoftware.io.TestGraphComparatorList.testNullSetField -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoEmployees(TestGraphComparatorList.java:2199)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullSetField(TestGraphComparatorList.java:998)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapValueChange -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapValueChange(TestGraphComparatorList.java:1154)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testDiffCollectionTypes -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoEmployees(TestGraphComparatorList.java:2199)
+	at com.cedarsoftware.io.TestGraphComparatorList.testDiffCollectionTypes(TestGraphComparatorList.java:1508)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testReplaceListElementObject -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testReplaceListElementObject(TestGraphComparatorList.java:1431)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testObjectArrayWithPrimitives -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testObjectArrayWithPrimitives(TestGraphComparatorList.java:824)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testShortenPrimitiveArrayToZeroLength -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testShortenPrimitiveArrayToZeroLength(TestGraphComparatorList.java:508)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceOrderedCollection -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceOrderedCollection(TestGraphComparatorList.java:1923)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testSetAddRemovePrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoEmployees(TestGraphComparatorList.java:2199)
+	at com.cedarsoftware.io.TestGraphComparatorList.testSetAddRemovePrimitive(TestGraphComparatorList.java:956)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testFoo -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.toObjects(JsonIo.java:180)
+	at com.cedarsoftware.io.JsonIo.toObjects(JsonIo.java:158)
+	at com.cedarsoftware.io.TestGraphComparatorList.testFoo(TestGraphComparatorList.java:2257)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstance -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstance(TestGraphComparatorList.java:1845)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testCycle -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testCycle(TestGraphComparatorList.java:1874)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testShortenArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testShortenArray(TestGraphComparatorList.java:447)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNullPrimitiveArrayField -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullPrimitiveArrayField(TestGraphComparatorList.java:797)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapRemoveUntilEmpty -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapRemoveUntilEmpty(TestGraphComparatorList.java:1092)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testLengthenPrimitiveArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testLengthenPrimitiveArray(TestGraphComparatorList.java:731)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testObjectArrayWithArraysAsElements -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testObjectArrayWithArraysAsElements(TestGraphComparatorList.java:849)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testPrimitiveArrayElementDifferences -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testPrimitiveArrayElementDifferences(TestGraphComparatorList.java:699)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:663)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testSimpleObjectDifference -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testSimpleObjectDifference(TestGraphComparatorList.java:363)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testArrayLengthDifferenceAndMove -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testArrayLengthDifferenceAndMove(TestGraphComparatorList.java:630)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapValueChangeToPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapValueChangeToPrimitive(TestGraphComparatorList.java:1195)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testArrayItemDifferences -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testArrayItemDifferences(TestGraphComparatorList.java:412)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceArray -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceArray(TestGraphComparatorList.java:1897)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapValueChangeToNull -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapValueChangeToNull(TestGraphComparatorList.java:1175)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testSetAddNonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoEmployees(TestGraphComparatorList.java:2199)
+	at com.cedarsoftware.io.TestGraphComparatorList.testSetAddNonPrimitive(TestGraphComparatorList.java:927)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNullOutArrayElements -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullOutArrayElements(TestGraphComparatorList.java:590)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceUnorderedMap -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceUnorderedMap(TestGraphComparatorList.java:1978)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapPutForReplace -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapPutForReplace(TestGraphComparatorList.java:1047)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapFieldAssignToNull -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapFieldAssignToNull(TestGraphComparatorList.java:1126)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testSetRemoveNonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoEmployees(TestGraphComparatorList.java:2199)
+	at com.cedarsoftware.io.TestGraphComparatorList.testSetRemoveNonPrimitive(TestGraphComparatorList.java:903)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testUnidentifiedObject -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testUnidentifiedObject(TestGraphComparatorList.java:1723)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNullingField -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullingField(TestGraphComparatorList.java:386)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testShortenArrayToZeroLength -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testShortenArrayToZeroLength(TestGraphComparatorList.java:478)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNullSource -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullSource(TestGraphComparatorList.java:1647)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNullTarget -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullTarget(TestGraphComparatorList.java:1663)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapPut -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapPut(TestGraphComparatorList.java:1025)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testMapRemove -- Time elapsed: 0.015 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoDictionaries(TestGraphComparatorList.java:2110)
+	at com.cedarsoftware.io.TestGraphComparatorList.testMapRemove(TestGraphComparatorList.java:1070)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testLengthenArray -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testLengthenArray(TestGraphComparatorList.java:533)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceUnorderedCollection -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceUnorderedCollection(TestGraphComparatorList.java:1949)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testNullObjectArrayField -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNullObjectArrayField(TestGraphComparatorList.java:766)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testChangeListElementField -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.createTwoPersons(TestGraphComparatorList.java:2136)
+	at com.cedarsoftware.io.TestGraphComparatorList.testChangeListElementField(TestGraphComparatorList.java:1394)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceOrderedMap -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.WriteOptionsBuilder
+	at com.cedarsoftware.io.JsonIo.deepCopy(JsonIo.java:270)
+	at com.cedarsoftware.io.TestGraphComparatorList.clone(TestGraphComparatorList.java:2215)
+	at com.cedarsoftware.io.TestGraphComparatorList.testTwoPointersToSameInstanceOrderedMap(TestGraphComparatorList.java:2005)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

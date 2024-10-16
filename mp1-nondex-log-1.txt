@@ -1,0 +1,521 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.cedarsoftware:json-io[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding json-io 4.26.0[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:2.1.7:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjson-io[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mjson-io[0;1m ---[m
+[[1;34mINFO[m] Copying 10 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mjson-io[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:5.1.9:manifest[m [1m(bundle-manifest)[m @ [36mjson-io[0;1m ---[m
+[[1;34mINFO[m] Writing manifest: /home/jakew4/json-io/target/classes/META-INF/MANIFEST.MF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjson-io[0;1m ---[m
+[[1;34mINFO[m] Copying 91 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mjson-io[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex-maven-plugin:2.1.7:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjson-io[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex-maven-plugin:2.1.7:nondex[m [1m(default-cli)[m @ [36mjson-io[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_+9nnNmMXx+X8vFgTkZeAo26NEkejzhNwbIWgZXcaRr4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=88 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.value
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.353 s -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=vywA+ThkRce7nLtGoxmXXW8YJ7AcP80U0ajgBpcwXsc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=93 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.coder
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.444 s[1;31m <<< FAILURE![m -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;31mERROR[m] com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement -- Time elapsed: 0.417 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestGraphComparatorList.testNewArrayElement:674 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for vywA+ThkRce7nLtGoxmXXW8YJ7AcP80U0ajgBpcwXsc=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=PYCR5MP1AQK6o+PAdqWXdy1ntXLYJ14cF0GMZveW8U=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=39 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.value
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 s -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=1P0VNQqtpKL5LZpk3V9T1jaIWt+2e2QI3tPBaSicUCI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=47 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.util.ArrayList.size
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.414 s[1;31m <<< FAILURE![m -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;31mERROR[m] com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement -- Time elapsed: 0.381 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestGraphComparatorList.testNewArrayElement:674 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 1P0VNQqtpKL5LZpk3V9T1jaIWt+2e2QI3tPBaSicUCI=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=ijoFllSTtvS3iwcP0SvNUN1hb8z5jFaYjCHXKf0OJ44=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=57 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.hash
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 s -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=Yz7hkN+Q7yoqcoKQpSa+gB0wegfP3Ft7dQqCnF2GdS0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=38 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.hash
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 s -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=ZWlqZbcIawgwIwFyehvGkgqndHIWRN7jTdDqXXUMbCk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=65 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.util.ArrayList.size
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.313 s[1;31m <<< FAILURE![m -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;31mERROR[m] com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement -- Time elapsed: 0.288 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestGraphComparatorList.testNewArrayElement:674 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for ZWlqZbcIawgwIwFyehvGkgqndHIWRN7jTdDqXXUMbCk=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=DgTgNh23gGm7Ed8huuoFOk7s8eq8QESATExkReo4pn0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=28 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.coder
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.387 s -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=AYKicpBTKrg313BCDOTtOJzqSjxDn0paJE3KWdBpcTU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=45 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.value
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.381 s[1;31m <<< FAILURE![m -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;31mERROR[m] com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement -- Time elapsed: 0.349 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestGraphComparatorList.testNewArrayElement:674 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for AYKicpBTKrg313BCDOTtOJzqSjxDn0paJE3KWdBpcTU=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=KxpHyZfIkXYPToKjBJ+8ZL33oFiLuzIbpH7lwtbJwEw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=54 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.value
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.369 s[1;31m <<< FAILURE![m -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;31mERROR[m] com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement -- Time elapsed: 0.343 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestGraphComparatorList.testNewArrayElement:674 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for KxpHyZfIkXYPToKjBJ+8ZL33oFiLuzIbpH7lwtbJwEw=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/jakew4/json-io/.nondex
+nondexJarDir=/home/jakew4/json-io/.nondex
+nondexExecid=saLe03XfJeEanu3QA8kxf7AsDleLNjWcwlh6i39BXDE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.io.[1mTestGraphComparatorList[m
+java-util using server id=30 for last two digits of generated unique IDs. Set using new SecureRandom()
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar) to field java.lang.String.value
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.522 s -- in com.cedarsoftware.io.[1mTestGraphComparatorList[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=vywA+ThkRce7nLtGoxmXXW8YJ7AcP80U0ajgBpcwXsc= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=PYCR5MP1AQK6o+PAdqWXdy1ntXLYJ14cF0GMZveW8U= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=1P0VNQqtpKL5LZpk3V9T1jaIWt+2e2QI3tPBaSicUCI= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=ijoFllSTtvS3iwcP0SvNUN1hb8z5jFaYjCHXKf0OJ44= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=Yz7hkN+Q7yoqcoKQpSa+gB0wegfP3Ft7dQqCnF2GdS0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=ZWlqZbcIawgwIwFyehvGkgqndHIWRN7jTdDqXXUMbCk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=DgTgNh23gGm7Ed8huuoFOk7s8eq8QESATExkReo4pn0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=AYKicpBTKrg313BCDOTtOJzqSjxDn0paJE3KWdBpcTU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=KxpHyZfIkXYPToKjBJ+8ZL33oFiLuzIbpH7lwtbJwEw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/jakew4/json-io/.nondex" -DnondexJarDir="/home/jakew4/json-io/.nondex" -DnondexExecid=saLe03XfJeEanu3QA8kxf7AsDleLNjWcwlh6i39BXDE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/jakew4/json-io/.nondex/vywA+ThkRce7nLtGoxmXXW8YJ7AcP80U0ajgBpcwXsc=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: vywA+ThkRce7nLtGoxmXXW8YJ7AcP80U0ajgBpcwXsc=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  22.043 s
+[[1;34mINFO[m] Finished at: 2024-09-08T19:57:49-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.1.7:nondex[m [1m(default-cli)[m on project [36mjson-io[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/jakew4/json-io/.nondex/vywA+ThkRce7nLtGoxmXXW8YJ7AcP80U0ajgBpcwXsc= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

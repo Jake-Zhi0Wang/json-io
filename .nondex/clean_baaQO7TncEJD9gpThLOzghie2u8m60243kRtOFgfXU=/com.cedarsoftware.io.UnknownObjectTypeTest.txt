@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.UnknownObjectTypeTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 4, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.cedarsoftware.io.UnknownObjectTypeTest
+com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassSwappedWithConcurrentSkipListMap -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassSwappedWithConcurrentSkipListMap(UnknownObjectTypeTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassSwappedWithConcurrentSkipListMapButSetToThrowIfMissing -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <com.cedarsoftware.io.JsonIoException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassSwappedWithConcurrentSkipListMapButSetToThrowIfMissing(UnknownObjectTypeTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.UnknownObjectTypeTest.lambda$testUnknownClassSwappedWithConcurrentSkipListMapButSetToThrowIfMissing$1(UnknownObjectTypeTest.java:85)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownObjects -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownObjects(UnknownObjectTypeTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassTypePassesWhenFailOptionFalse -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassTypePassesWhenFailOptionFalse(UnknownObjectTypeTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassTypeFailsWhenFailOptionTrue -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <com.cedarsoftware.io.JsonIoException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassTypeFailsWhenFailOptionTrue(UnknownObjectTypeTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.UnknownObjectTypeTest.lambda$testUnknownClassTypeFailsWhenFailOptionTrue$0(UnknownObjectTypeTest.java:63)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassType -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.UnknownObjectTypeTest.testUnknownClassType(UnknownObjectTypeTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

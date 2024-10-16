@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.HardToInstantiateTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! -- in com.cedarsoftware.io.HardToInstantiateTest
+com.cedarsoftware.io.HardToInstantiateTest.testHardToInstantiateClass -- Time elapsed: 0.024 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <com.cedarsoftware.io.JsonIoException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.cedarsoftware.io.HardToInstantiateTest.testHardToInstantiateClass(HardToInstantiateTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.HardToInstantiateTest.lambda$testHardToInstantiateClass$0(HardToInstantiateTest.java:39)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.ForwardReferencesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in com.cedarsoftware.io.ForwardReferencesTest
+com.cedarsoftware.io.ForwardReferencesTest.testForwardRefs -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.NoClassDefFoundError: com/cedarsoftware/io/ReadOptionsBuilder
+	at com.cedarsoftware.io.TestUtil.toObjects(TestUtil.java:183)
+	at com.cedarsoftware.io.ForwardReferencesTest.testForwardRefs(ForwardReferencesTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

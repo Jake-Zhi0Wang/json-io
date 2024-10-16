@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.PrettyPrintTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in com.cedarsoftware.io.PrettyPrintTest
+com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint -- Time elapsed: 0.002 s <<< ERROR!
+com.cedarsoftware.io.JsonIoException: Error reading resource: format/prettyPrint.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:740)
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsString(MetaUtils.java:724)
+	at com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint(PrettyPrintTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: com.cedarsoftware.io.JsonIoException: Resource not found: format/prettyPrint.json
+	at com.cedarsoftware.io.MetaUtils.loadResourceAsBytes(MetaUtils.java:736)
+	... 5 more
+

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.EnumTests
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.726 s <<< FAILURE! -- in com.cedarsoftware.io.EnumTests
+com.cedarsoftware.io.EnumTests.testEnumWithPrivateMembersAsField_withPrivatesOn -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting actual:
+  "{"@type":"com.cedarsoftware.io.EnumTests$TestEnum4","foo":"bar","age":21,"name":"B"}"
+to be equal to:
+  "{
+  "@type": "com.cedarsoftware.io.EnumTests$TestEnum4",
+  "age": 21,
+  "foo": "bar",
+  "name": "B"
+}"
+when ignoring whitespace differences
+	at com.cedarsoftware.io.EnumTests.testEnumWithPrivateMembersAsField_withPrivatesOn(EnumTests.java:172)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.ReturnValueTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! -- in com.cedarsoftware.io.ReturnValueTest
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithFloatJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithFloatJsonPrimitive(ReturnValueTest.java:363)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigDecimalJsonPrimitiveForcedToDouble -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigDecimalJsonPrimitiveForcedToDouble(ReturnValueTest.java:248)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithIntegerJsonPrimitive -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithIntegerJsonPrimitive(ReturnValueTest.java:271)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigIntegerJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigIntegerJsonPrimitive(ReturnValueTest.java:184)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithAtomicLongJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithAtomicLongJsonPrimitive(ReturnValueTest.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigDecimalJsonPrimitive -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigDecimalJsonPrimitive(ReturnValueTest.java:225)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBooleanJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBooleanJsonPrimitive(ReturnValueTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithLongJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithLongJsonPrimitive(ReturnValueTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithByteJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithByteJsonPrimitive(ReturnValueTest.java:340)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithCharacterJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithCharacterJsonPrimitive(ReturnValueTest.java:386)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithStringJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithStringJsonPrimitive(ReturnValueTest.java:105)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithAtomicIntegerJsonPrimitive -- Time elapsed: 0.013 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithAtomicIntegerJsonPrimitive(ReturnValueTest.java:294)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithShortJsonPrimitive -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithShortJsonPrimitive(ReturnValueTest.java:317)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithAtomicBooleanJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithAtomicBooleanJsonPrimitive(ReturnValueTest.java:156)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigIntegerJsonPrimitiveForceToLong -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithBigIntegerJsonPrimitiveForceToLong(ReturnValueTest.java:212)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithDoubleJsonPrimitive -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.cedarsoftware.io.ReadOptionsBuilder
+	at com.cedarsoftware.io.ReturnValueTest.testReturnAsJsonObjectWithDoubleJsonPrimitive(ReturnValueTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

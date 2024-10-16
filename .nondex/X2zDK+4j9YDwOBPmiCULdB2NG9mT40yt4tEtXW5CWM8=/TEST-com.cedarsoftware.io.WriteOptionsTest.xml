@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.cedarsoftware.io.WriteOptionsTest" time="0.815" tests="131" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="user.region" value="US"/>
+    <property name="java.class.path" value="/home/jakew4/json-io/target/test-classes:/home/jakew4/json-io/target/classes:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/jakew4/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/jakew4/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/jakew4/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/jakew4/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/home/jakew4/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/home/jakew4/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/home/jakew4/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/home/jakew4/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-classic/1.5.6/logback-classic-1.5.6.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-core/1.5.6/logback-core-1.5.6.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/home/jakew4/json-io/target/surefire/surefirebooter-20240903143151130_13.jar /home/jakew4/json-io/target/surefire 2024-09-03T14-31-50_854-jvmRun1 surefire-20240903143151130_11tmp surefire_2-20240903143151130_12tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/jakew4/json-io/target/test-classes:/home/jakew4/json-io/target/classes:/home/jakew4/.m2/repository/com/cedarsoftware/java-util/2.13.0/java-util-2.13.0.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/jakew4/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/jakew4/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/jakew4/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/jakew4/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/jakew4/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/home/jakew4/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/home/jakew4/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/home/jakew4/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/home/jakew4/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/home/jakew4/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-classic/1.5.6/logback-classic-1.5.6.jar:/home/jakew4/.m2/repository/ch/qos/logback/logback-core/1.5.6/logback-core-1.5.6.jar:"/>
+    <property name="nondexExecid" value="X2zDK+4j9YDwOBPmiCULdB2NG9mT40yt4tEtXW5CWM8="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/jakew4"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/jakew4/json-io"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="/home/jakew4/json-io/target/surefire/surefirebooter-20240903143151130_13.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
+    <property name="user.name" value="jakew4"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-119-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/jakew4/.m2/repository"/>
+    <property name="nondexDir" value="/home/jakew4/json-io/.nondex"/>
+    <property name="nondexJarDir" value="/home/jakew4/json-io/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.24"/>
+    <property name="user.dir" value="/home/jakew4/json-io"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getAccessorsForClass_findsName_whenIncludedInNonStandardMappings" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testIsNonReferenceable_notInDefaults" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testClassLoader(ClassLoader)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testClassLoader(ClassLoader)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNotCustomWrittenClass_default_returnsFalseWhenNotContained" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002"/>
+  <testcase name="testForceMapOutputAsTwoArrays_defaultValue" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testAliasTypeNames_addedByMap" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002"/>
+  <testcase name="testAddNonReferenceableClass_isFound" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="tesSkipNullFields_default" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testCustomFormat_thatIncludesMilliseconds" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.006"/>
+  <testcase name="teatAliasTypeNames_whenAliasAlreadyExists_throwsException" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002"/>
+  <testcase name="testIsLongFormat_whenIsoDateTimeFormat_returnsFalse" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="getAccessorsForClass_findsAllNonStaticFieldAccessors" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002">
+    <failure message="&#10;expected: &quot;test1&quot;&#10; but was: &quot;test4&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: "test1"
+ but was: "test4"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_findsAllNonStaticFieldAccessors(WriteOptionsTest.java:574)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+]]></failure>
+  </testcase>
+  <testcase name="testWritingLongFormat" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testSetNotCustomWrittenClasses" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="getAccessorsForClass_whenMethodDoesNotExists_doesNotThrowException" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002">
+    <failure message="&#10;expected: &quot;getTotal&quot;&#10; but was: &quot;y&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: "getTotal"
+ but was: "y"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_whenMethodDoesNotExists_doesNotThrowException(WriteOptionsTest.java:548)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+]]></failure>
+  </testcase>
+  <testcase name="testGetDeepAccessorMap_onEnumDefinitionClass_findsName" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002"/>
+  <testcase name="testWritingIsoDateTimeFormat" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.005"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[3]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[4]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[5]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[6]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[7]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[8]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[9]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[10]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[11]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[12]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[13]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[14]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[15]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[16]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[17]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[18]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_defaults(Class)[19]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testCustomWrittenClasses_asAsMap" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testAliasTypeNames_addedByNameValue_whenAlreadyExists_throwsException" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testShowTypeInfoMinimal_defaultValue" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[3]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[4]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[5]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[6]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[7]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[8]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[9]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[10]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_defaults(String, String)[11]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsLongFormat_defaultIsTrue" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testCustomWrittenClasses_addedIndividually" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002"/>
+  <testcase name="testIsLongFormat_whenIsoDateFormat_returnsFalse" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="getAccessorsForClass_onEnum_fillsOutAccessorCorrectly" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="getAccessorsForClass_onEnumDefinition_fillsOutAccessorCorrectly" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[3]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[4]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[5]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[6]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[7]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[8]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[9]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[10]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[11]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[12]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[13]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[14]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[15]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[16]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[17]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[18]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[19]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[20]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[21]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAliasTypeNames_includingExtendedDefaults(String, String)[22]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testClassLoader_default" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testForceMapOutputAsTwoArrays(boolean)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testForceMapOutputAsTwoArrays(boolean)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testAddNotCustomWrittenClass" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[3]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[4]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[5]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[6]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[7]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[8]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[9]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[10]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[11]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[12]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[13]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[14]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[15]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[16]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[17]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[18]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[19]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[20]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[21]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[22]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[23]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[24]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[25]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[26]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[27]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[28]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[29]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.01"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[30]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[31]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[32]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[33]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[34]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[35]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[36]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[37]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testIsNonReferenceable_defaults(Class)[38]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testShowTypeInfoAlways" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="testAliasTypeNames_addedByNameValue" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002"/>
+  <testcase name="testAliasTypeNames_exceptionCases(String, String)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="testAliasTypeNames_exceptionCases(String, String)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.004"/>
+  <testcase name="getAccessorsForClass_findEnumWithCustomFields_whenNotPublicFieldsOnly" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002">
+    <failure message="&#10;expected: &quot;speed&quot;&#10; but was: &quot;tire&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: "speed"
+ but was: "tire"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_findEnumWithCustomFields_whenNotPublicFieldsOnly(WriteOptionsTest.java:607)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+]]></failure>
+  </testcase>
+  <testcase name="testSetSkipNullFields(boolean)[1]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testSetSkipNullFields(boolean)[2]" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.003"/>
+  <testcase name="testShowTypeInfoNever" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="getAccessorsForClass_withMixedAccessors" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002">
+    <failure message="&#10;expected: &quot;x&quot;&#10; but was: &quot;y&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: "x"
+ but was: "y"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_withMixedAccessors(WriteOptionsTest.java:475)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+]]></failure>
+  </testcase>
+  <testcase name="testShowTypeInfoMinimal" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.001"/>
+  <testcase name="getAccessorsForClass_bindsBooleanNonStaticFieldAccessors" classname="com.cedarsoftware.io.WriteOptionsTest" time="0.002">
+    <failure message="&#10;expected: &quot;test1&quot;&#10; but was: &quot;isTest5&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: "test1"
+ but was: "isTest5"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_bindsBooleanNonStaticFieldAccessors(WriteOptionsTest.java:590)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+]]></failure>
+  </testcase>
+</testsuite>

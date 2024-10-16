@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: com.cedarsoftware.io.WriteOptionsTest
+-------------------------------------------------------------------------------
+Tests run: 131, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.806 s <<< FAILURE! -- in com.cedarsoftware.io.WriteOptionsTest
+com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_findsAllNonStaticFieldAccessors -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "test1"
+ but was: "test4"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_findsAllNonStaticFieldAccessors(WriteOptionsTest.java:574)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_whenMethodDoesNotExists_doesNotThrowException -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "getTotal"
+ but was: "getKey"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_whenMethodDoesNotExists_doesNotThrowException(WriteOptionsTest.java:548)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_findEnumWithCustomFields_whenNotPublicFieldsOnly -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "speed"
+ but was: "isStick"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_findEnumWithCustomFields_whenNotPublicFieldsOnly(WriteOptionsTest.java:607)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_withMixedAccessors -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting value to be false but was true
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_withMixedAccessors(WriteOptionsTest.java:474)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_bindsBooleanNonStaticFieldAccessors -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "test1"
+ but was: "test2"
+	at com.cedarsoftware.io.WriteOptionsTest.getAccessorsForClass_bindsBooleanNonStaticFieldAccessors(WriteOptionsTest.java:590)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

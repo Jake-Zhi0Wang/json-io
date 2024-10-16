@@ -1,0 +1,4 @@
+com.cedarsoftware.io.SecurityTest#testSecureWrites
+com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests#enumFilter_enumValue
+com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests#enumFilter_withABasicEnum_willNotFilterAnyFields
+com.cedarsoftware.io.reflect.filters.EnumFieldFilterTests#enumFilter_withEnumThatHasAdditionalFields
